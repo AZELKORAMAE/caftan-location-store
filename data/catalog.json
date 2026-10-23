@@ -1,0 +1,333 @@
+{
+  "collections": [
+    {
+      "slug": "caftans",
+      "name": "Caftans",
+      "description": "Le caftan d'une seule pièce, en velours, brocart ou mousseline, brodé au fil d'or : l'élégance pour toutes les fêtes.",
+      "image_url": "/images/tenues/green-1.jpg",
+      "is_featured": true,
+      "sort_order": 1,
+      "requires_size": true
+    },
+    {
+      "slug": "takchitas",
+      "name": "Takchitas",
+      "description": "Deux pièces superposées et une ceinture ciselée : la takchita sublime les grandes soirées, du henné au mariage.",
+      "image_url": "/images/tenues/gold-1.jpg",
+      "is_featured": true,
+      "sort_order": 2,
+      "requires_size": true
+    },
+    {
+      "slug": "mariee",
+      "name": "Tenues de mariée",
+      "description": "Lebsa fassia, takchitas royales et caftans de négafa : des tenues d'exception pour chacun de vos passages.",
+      "image_url": "/images/tenues/emerald-1.jpg",
+      "is_featured": true,
+      "sort_order": 3,
+      "requires_size": true
+    },
+    {
+      "slug": "djellabas",
+      "name": "Djellabas de fête",
+      "description": "Djellabas brodées et légères pour l'Aïd, l'aqiqa et les soirées en famille.",
+      "image_url": "/images/tenues/sky-1.jpg",
+      "is_featured": true,
+      "sort_order": 4,
+      "requires_size": true
+    }
+  ],
+  "products": [
+    {
+      "slug": "caftan-yasmine-brocart-vert",
+      "name": "Caftan Yasmine",
+      "collection": "caftans",
+      "category": "caftan",
+      "material": "Brocart vert émeraude, sfifa dorée",
+      "price": 900,
+      "deposit": 1500,
+      "description": "Un caftan en brocart vert tissé de fleurs dorées, ouvert sur une sfifa or qui descend jusqu'à l'ourlet. Majestueux et lumineux.",
+      "details": "Brocart vert et fil doré\nSfifa et aâkad dorés faits main\nManches longues en organza\nTailles disponibles : S à XL\nDiadème assorti en option",
+      "images": [
+        "/images/tenues/green-1.jpg",
+        "/images/tenues/green-2.jpg",
+        "/images/tenues/green-3.jpg"
+      ],
+      "stock": 2,
+      "is_featured": true,
+      "is_new": false,
+      "free_shipping": true
+    },
+    {
+      "slug": "caftan-lina-velours-grenat",
+      "name": "Caftan Lina",
+      "collection": "caftans",
+      "category": "caftan",
+      "material": "Velours grenat, broderie au fil d'or",
+      "price": 750,
+      "deposit": 1200,
+      "description": "Velours grenat profond et broderie au fil d'or sur l'encolure, les poignets et la traîne : un caftan à capuche aussi doux que spectaculaire.",
+      "details": "Velours de soie grenat\nBroderie au fil d'or (tarz)\nCapuche brodée\nLongueur : 150 cm, retouches incluses",
+      "images": [
+        "/images/tenues/red-1.jpg",
+        "/images/tenues/red-2.jpg"
+      ],
+      "stock": 2,
+      "is_featured": true,
+      "is_new": true,
+      "free_shipping": true
+    },
+    {
+      "slug": "caftan-kenza-velours-bleu-nuit",
+      "name": "Caftan Kenza",
+      "collection": "caftans",
+      "category": "caftan",
+      "material": "Velours bleu nuit, broderie or",
+      "price": 800,
+      "deposit": 1300,
+      "description": "Un velours bleu nuit rehaussé d'or sur la capuche et les manches : un caftan profond et chaleureux pour les soirées d'hiver.",
+      "details": "Velours bleu nuit\nBroderie au fil d'or\nCapuche brodée\nTailles disponibles : S à XXL",
+      "images": [
+        "/images/tenues/navy-1.jpg",
+        "/images/tenues/navy-2.jpg"
+      ],
+      "stock": 1,
+      "is_featured": true,
+      "is_new": false,
+      "free_shipping": true
+    },
+    {
+      "slug": "caftan-layla-noir-et-or",
+      "name": "Caftan Layla",
+      "collection": "caftans",
+      "category": "caftan",
+      "material": "Velours noir, broderie or",
+      "price": 850,
+      "deposit": 1400,
+      "description": "Le noir et l'or, l'accord le plus chic : un velours noir brodé d'arabesques dorées, pour une soirée tout en élégance.",
+      "details": "Velours noir\nBroderie arabesque au fil doré\nCapuche amovible\nTailles disponibles : S à XL",
+      "images": [
+        "/images/tenues/black-1.jpg",
+        "/images/tenues/black-2.jpg"
+      ],
+      "stock": 1,
+      "is_featured": false,
+      "is_new": false,
+      "free_shipping": true,
+      "compare_at_price": 1050
+    },
+    {
+      "slug": "caftan-nour-mousseline-menthe",
+      "name": "Caftan Nour",
+      "collection": "caftans",
+      "category": "caftan",
+      "material": "Mousseline menthe et satin",
+      "price": 650,
+      "deposit": 1000,
+      "description": "Une mousseline menthe brodée de fleurs ton sur ton, posée sur un fourreau de satin. Léger et frais, idéal pour les fêtes d'été.",
+      "details": "Mousseline brodée et doublure satin\nColoris menthe glacée\nCeinture fine en option\nTailles disponibles : XS à L",
+      "images": [
+        "/images/tenues/mint-1.jpg",
+        "/images/tenues/mint-2.jpg"
+      ],
+      "stock": 2,
+      "is_featured": false,
+      "is_new": true,
+      "free_shipping": true
+    },
+    {
+      "slug": "takchita-rania-or",
+      "name": "Takchita Rania",
+      "collection": "takchitas",
+      "category": "takchita",
+      "material": "Dfina brodée or, tahtia en satin",
+      "price": 1400,
+      "deposit": 2500,
+      "description": "Une dfina brodée de fleurs dorées posée sur une tahtia de satin champagne, ceinturée d'une mdamma ciselée : la takchita des grandes soirées.",
+      "details": "Deux pièces : tahtia satin et dfina brodée\nCeinture (mdamma) dorée incluse\nSfifa faite main\nTailles disponibles : S à XL",
+      "images": [
+        "/images/tenues/gold-1.jpg",
+        "/images/tenues/gold-2.jpg"
+      ],
+      "stock": 2,
+      "is_featured": true,
+      "is_new": false,
+      "free_shipping": true
+    },
+    {
+      "slug": "takchita-imane-bleu-roi",
+      "name": "Takchita Imane",
+      "collection": "takchitas",
+      "category": "takchita",
+      "material": "Brocart bleu roi, sfifa dorée",
+      "price": 1250,
+      "deposit": 2200,
+      "description": "Un brocart bleu roi tissé d'or et une sfifa dorée du col à l'ourlet : une takchita lumineuse pour le henné et les fiançailles.",
+      "details": "Dfina en brocart bleu roi et or\nTahtia en satin assorti\nCeinture dorée incluse\nTailles disponibles : M à XXL",
+      "images": [
+        "/images/tenues/royal-1.jpg",
+        "/images/tenues/royal-2.jpg",
+        "/images/tenues/royal-3.jpg"
+      ],
+      "stock": 1,
+      "is_featured": false,
+      "is_new": true,
+      "free_shipping": true
+    },
+    {
+      "slug": "takchita-zineb-rose-poudre",
+      "name": "Takchita Zineb",
+      "collection": "takchitas",
+      "category": "takchita",
+      "material": "Mousseline rose poudré, satin",
+      "price": 1100,
+      "deposit": 2000,
+      "description": "La douceur du rose poudré, des manches vaporeuses et un satin délicat : une takchita romantique pour les fiançailles.",
+      "details": "Mousseline brodée et satin rose poudré\nManches évasées\nCeinture fine incluse\nTailles disponibles : XS à L",
+      "images": [
+        "/images/tenues/pink-1.jpg",
+        "/images/tenues/pink-2.jpg"
+      ],
+      "stock": 2,
+      "is_featured": false,
+      "is_new": true,
+      "free_shipping": true,
+      "compare_at_price": 1300
+    },
+    {
+      "slug": "takchita-hiba-brocart-prune",
+      "name": "Takchita Hiba",
+      "collection": "takchitas",
+      "category": "takchita",
+      "material": "Brocart prune, broderie dorée",
+      "price": 1300,
+      "deposit": 2300,
+      "description": "Un brocart prune tissé de fleurs et rehaussé d'une sfifa dorée : une takchita intense, signature de la maison.",
+      "details": "Brocart prune et or\nSfifa et boutons dorés faits main\nCeinture tressée dorée incluse\nTailles disponibles : S à L",
+      "images": [
+        "/images/tenues/plum-1.jpg",
+        "/images/tenues/plum-2.jpg",
+        "/images/tenues/plum-3.jpg"
+      ],
+      "stock": 1,
+      "is_featured": false,
+      "is_new": false,
+      "free_shipping": true
+    },
+    {
+      "slug": "lebsa-fassia-emeraude",
+      "name": "Lebsa Fassia Émeraude",
+      "collection": "mariee",
+      "category": "mariee",
+      "material": "Velours émeraude brodé or",
+      "price": 4500,
+      "deposit": 8000,
+      "description": "La tenue de mariée de Fès dans toute sa splendeur : velours émeraude brodé d'or, capuche et traîne, pour l'entrée de la mariée.",
+      "details": "Velours émeraude brodé au fil d'or\nCapuche et traîne brodées\nParure de tête et bijoux inclus\nHabillage par notre négafa en option",
+      "images": [
+        "/images/tenues/emerald-1.jpg",
+        "/images/tenues/emerald-2.jpg"
+      ],
+      "stock": 1,
+      "is_featured": true,
+      "is_new": false,
+      "free_shipping": true
+    },
+    {
+      "slug": "takchita-mariee-ivoire",
+      "name": "Takchita de mariée Ivoire",
+      "collection": "mariee",
+      "category": "mariee",
+      "material": "Mousseline ivoire, satin duchesse",
+      "price": 3200,
+      "deposit": 6000,
+      "description": "Une takchita ivoire en mousseline brodée sur satin duchesse, ceinture bijou : la tenue lumineuse du premier passage.",
+      "details": "Mousseline ivoire brodée\nSatin duchesse\nCeinture bijou incluse\nRetouches sur mesure incluses",
+      "images": [
+        "/images/tenues/ivory-1.jpg",
+        "/images/tenues/ivory-2.jpg"
+      ],
+      "stock": 1,
+      "is_featured": false,
+      "is_new": true,
+      "free_shipping": true
+    },
+    {
+      "slug": "caftan-mariee-turquoise-royal",
+      "name": "Caftan de mariée Turquoise Royal",
+      "collection": "mariee",
+      "category": "mariee",
+      "material": "Brocart turquoise et or, diadème",
+      "price": 2800,
+      "deposit": 5000,
+      "description": "Un brocart turquoise tissé d'or et couronné d'un diadème : le passage de la mariée le plus attendu.",
+      "details": "Brocart turquoise tissé or\nDiadème assorti inclus\nSfifa et boutons dorés faits main\nTailles disponibles : S à XL",
+      "images": [
+        "/images/tenues/teal-1.jpg",
+        "/images/tenues/teal-2.jpg",
+        "/images/tenues/teal-3.jpg"
+      ],
+      "stock": 1,
+      "is_featured": false,
+      "is_new": false,
+      "free_shipping": true
+    },
+    {
+      "slug": "djellaba-farah-bleu-ciel",
+      "name": "Djellaba Farah",
+      "collection": "djellabas",
+      "category": "djellaba",
+      "material": "Crêpe bleu ciel, broderie ton sur ton",
+      "price": 350,
+      "deposit": 500,
+      "description": "Une djellaba bleu ciel en crêpe léger, brodée ton sur ton : élégante et confortable pour l'Aïd.",
+      "details": "Crêpe fluide bleu ciel\nBroderie ton sur ton\nCapuche traditionnelle\nTailles disponibles : S à XXL",
+      "images": [
+        "/images/tenues/sky-1.jpg",
+        "/images/tenues/sky-2.jpg"
+      ],
+      "stock": 4,
+      "is_featured": true,
+      "is_new": false,
+      "free_shipping": false
+    },
+    {
+      "slug": "djellaba-amal-sable",
+      "name": "Djellaba Amal",
+      "collection": "djellabas",
+      "category": "djellaba",
+      "material": "Crêpe sable, finitions sfifa",
+      "price": 300,
+      "deposit": 400,
+      "description": "Une djellaba couleur sable, souple et respirante, ourlée d'une sfifa ton sur ton : l'allure naturelle des fêtes d'été.",
+      "details": "Crêpe couleur sable\nSfifa ton sur ton\nPoches latérales\nTailles disponibles : XS à XL",
+      "images": [
+        "/images/tenues/sand-1.jpg",
+        "/images/tenues/sand-2.jpg"
+      ],
+      "stock": 3,
+      "is_featured": false,
+      "is_new": true,
+      "free_shipping": false
+    },
+    {
+      "slug": "djellaba-soiree-violette",
+      "name": "Djellaba Soirée Violette",
+      "collection": "djellabas",
+      "category": "djellaba",
+      "material": "Crêpe satiné violet, broderie",
+      "price": 450,
+      "deposit": 700,
+      "description": "Un violet profond et une broderie délicate : une djellaba de soirée raffinée pour les aqiqa et les fêtes en famille.",
+      "details": "Crêpe satiné violet\nBroderie sur le plastron\nCapuche brodée\nTailles disponibles : S à XL",
+      "images": [
+        "/images/tenues/violet-1.jpg",
+        "/images/tenues/violet-2.jpg"
+      ],
+      "stock": 2,
+      "is_featured": false,
+      "is_new": false,
+      "free_shipping": false
+    }
+  ]
+}

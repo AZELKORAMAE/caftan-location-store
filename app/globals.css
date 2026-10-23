@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --header-h: 0px;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+  body {
+    @apply bg-white font-sans text-encre antialiased;
+    /* Sécurité : la page ne dépasse jamais la largeur de l'écran (mobile) */
+    overflow-x: clip;
+    font-feature-settings: "kern", "liga";
+  }
+  ::selection {
+    @apply bg-prune-900 text-or-100;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-or-500 ring-offset-2 ring-offset-white;
+  }
+  button,
+  a,
+  [role="button"] {
+    touch-action: manipulation;
+  }
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}
+
+@layer components {
+  /* Petites capitales espacées, signature visuelle de la Maison */
+  .eyebrow {
+    @apply font-sans text-[11px] font-medium uppercase tracking-luxe;
+  }
+  .display {
+    @apply font-serif font-light leading-[1.05] tracking-tight;
+  }
+
+  .btn {
+    @apply inline-flex min-h-[48px] cursor-pointer items-center justify-center gap-2 px-8 text-[12px] font-medium uppercase tracking-[0.2em] transition-all duration-300 ease-luxe disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-prune-900 text-ivoire hover:bg-prune-700 active:scale-[0.98];
+  }
+  .btn-gold {
+    @apply btn bg-or-500 text-prune-950 hover:bg-or-400 active:scale-[0.98];
+  }
+  .btn-outline {
+    @apply btn border border-prune-900 text-prune-900 hover:bg-prune-900 hover:text-ivoire;
+  }
+  .btn-outline-light {
+    @apply btn border border-ivoire/70 text-ivoire hover:bg-ivoire hover:text-prune-900;
+  }
+
+  /* Lien souligné animé, comme sur Tiffany */
+  .link-underline {
+    @apply relative inline-flex items-center gap-2 pb-1 text-[12px] font-medium uppercase tracking-[0.2em];
+  }
+  .link-underline::after {
+    content: "";
+    @apply absolute bottom-0 left-0 h-px w-full origin-left bg-current transition-transform duration-500 ease-luxe;
+  }
+  .link-underline:hover::after {
+    @apply scale-x-0 origin-right;
+  }
+
+  .field {
+    @apply block w-full min-h-[48px] border border-sable bg-white px-4 text-[16px] text-encre placeholder:text-taupe/60 transition-colors focus:border-prune-900 focus:outline-none focus:ring-0;
+  }
+  .field-label {
+    @apply mb-2 block text-[12px] font-medium uppercase tracking-[0.15em] text-encre;
+  }
+
+  .skeleton {
+    @apply animate-shimmer bg-[linear-gradient(90deg,#F4EDE4_0%,#FBF8F4_50%,#F4EDE4_100%)] bg-[length:200%_100%];
+  }
+
+  /* Filet doré décoratif */
+  .gold-rule {
+    @apply mx-auto h-px w-16 bg-gradient-to-r from-transparent via-or-500 to-transparent;
+  }
+}
+
+@layer utilities {
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
