@@ -6,7 +6,11 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/cn";
 
-type Slide = { image: string; eyebrow: string; title: string; text: string; href: string; cta: string; /** cadrage, ex. "50% 20%" */ position?: string };
+type Slide = {
+  image: string;
+  /** Version verticale pour téléphone (sinon l'image paysage est recadrée au centre) */
+  mobileImage?: string;
+  eyebrow: string; title: string; text: string; href: string; cta: string; /** cadrage, ex. "50% 20%" */ position?: string };
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 const DURATION = 7000;
@@ -46,11 +50,23 @@ export function Hero({ slides }: { slides: Slide[] }) {
             transition={{ duration: 1.2, ease: "easeInOut" }}
             className="absolute inset-0"
           >
-            <Image src={slide.image} alt="" fill priority={index === 0} sizes="100vw" className="animate-ken-burns object-cover" style={{ objectPosition: slide.position ?? "50% 50%" }} />
+            {slide.mobileImage && (
+              <Image src={slide.mobileImage} alt="" fill priority={index === 0} sizes="100vw" className="animate-ken-burns object-cover object-top md:hidden" />
+            )}
+            <Image
+              src={slide.image}
+              alt=""
+              fill
+              priority={index === 0}
+              sizes="100vw"
+              className={cn("animate-ken-burns object-cover", slide.mobileImage && "hidden md:block")}
+              style={{ objectPosition: slide.position ?? "50% 50%" }}
+            />
           </motion.div>
         </AnimatePresence>
-        <div className="absolute inset-0 bg-gradient-to-r from-prune-950/85 via-prune-950/45 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-prune-950/70 via-transparent to-transparent md:hidden" />
+        <div className="absolute inset-0 hidden bg-gradient-to-r from-prune-950/85 via-prune-950/45 to-transparent md:block" />
+        {/* Téléphone : la tenue reste visible en haut, le texte se lit sur le dégradé du bas */}
+        <div className="absolute inset-0 bg-gradient-to-t from-prune-950/95 via-prune-950/45 via-55% to-transparent md:hidden" />
       </motion.div>
 
       <motion.div style={{ opacity: fade }} className="container relative flex h-full items-end pb-20 md:items-center md:pb-0">

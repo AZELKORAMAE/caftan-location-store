@@ -38,15 +38,17 @@ export default async function HomePage() {
   const slides = [
     {
       image: EDITORIAL_IMAGES.hero[0],
+      mobileImage: EDITORIAL_IMAGES.heroMobile[0],
       position: "50% 20%",
       eyebrow: "Saison des mariages",
       title: "Le caftan de vos plus belles soirées",
       text: "Caftans, takchitas et djellabas de créateurs à louer pour vos mariages, fiançailles et henné.",
-      href: "/boutique",
-      cta: "Voir les tenues",
+      href: "/collections/caftans",
+      cta: "Découvrir les caftans",
     },
     {
       image: EDITORIAL_IMAGES.hero[1],
+      mobileImage: EDITORIAL_IMAGES.heroMobile[1],
       position: "50% 30%",
       eyebrow: "Takchitas",
       title: "L'élégance, sans l'acheter",
@@ -56,6 +58,7 @@ export default async function HomePage() {
     },
     {
       image: EDITORIAL_IMAGES.hero[2],
+      mobileImage: EDITORIAL_IMAGES.heroMobile[2],
       position: "50% 25%",
       eyebrow: "Réservation en ligne",
       title: "Réservez pour votre date",

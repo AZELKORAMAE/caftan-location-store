@@ -10,6 +10,8 @@ export const BRAND = {
 export const EDITORIAL_IMAGES = {
   // Grand visuel de l'accueil : fichiers dans public/images/hero/
   hero: ["/images/hero/accueil-1.jpg", "/images/hero/accueil-2.jpg", "/images/hero/accueil-3.jpg"],
+  // Versions verticales affichées sur téléphone
+  heroMobile: ["/images/hero/accueil-1-mobile.jpg", "/images/hero/accueil-2-mobile.jpg", "/images/hero/accueil-3-mobile.jpg"],
   feature: "/images/accueil-collection.jpg", // section éditoriale (1re collection)
   essayage: "/images/accueil-essayage.jpg",
   atelier: "/images/maison-atelier.jpg",
